@@ -1,0 +1,24 @@
+#wrap {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px; 
+   	height: 300px;
+}
+.page-content{
+	background: white;
+}
+#left{
+    background: white;
+    height: 330px;
+    padding: 5px;
+
+}
+#right{
+	background: white;
+	height: 330px;
+	padding: 5px;
+}
+.col button button-big{
+    border-color: green;
+}
