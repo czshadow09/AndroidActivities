@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
+  <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet'>
   </head>
   <body>
     <style type="text/css">
@@ -21,6 +22,24 @@
       height: 60px;
       width: 350px;
     }
+    div.customH{
+       font-family:'Yesteryear';font-size: 22px;
+       color: black;
+
+    }
+    .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+*{
+  box-sizing: border-box;
+}
     </style>
     <!-- App root element -->
     <div id="app">
@@ -43,14 +62,21 @@
 
           <!-- Scrollable page content -->
           <div class="page-content">
-            <div id="wrap">
-            <div id="left"><img src="images/rj.jpg" height="330"/> </div>
-            <div id="right"><img src="images/hand.jpg" height="165" width="170"/><img src="images/sachznawed.jpg" height="165" width="170"/></div>
-
-            </div>
+             <div><img src="images/church.png" style="width:100%"><div>
+                <div class="row">
+     <div class="column">
+        <img src="images/paloy.jpg" height="130" style="width:100%">
+      </div>
+      <div class="column">
+       <img src="images/garden.jpg" height="130" style="width:100%">
+          </div>
+      <div class="column">
+         <img src="images/sachznawed.jpg" height="130" style="width:100%">
+        </div>
+      </div>
             <div class="block">
           <p class="row">
-          <a href="/visitors/"><button class="col button button-big">RJ AND SACHZNA</button></a>
+          <a href="/visitors/"><button class="col button button-big"><div class="customH">RJ AND SACHZNA</div></button></a>
           </p>
           </div>
           </div>
