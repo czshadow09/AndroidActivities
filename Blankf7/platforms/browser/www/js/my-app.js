@@ -35,6 +35,10 @@ var app = new Framework7({
       path: '/tinola/',
       url: 'tinola.html',
     },
+    {
+      path: '/visitors/',
+      url: 'visitors.html',
+    },
   ],
   // ... other parameters
 });
