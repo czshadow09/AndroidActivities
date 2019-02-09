@@ -39,7 +39,16 @@ var app = new Framework7({
       path: '/visitors/',
       url: 'visitors.html',
     },
+    {
+      path: '/index2/',
+      url: 'index2.html',
+    },
+    {
+      path: '/menu/',
+      url: 'menu.html',
+    },
   ],
+  
   // ... other parameters
 });
 
