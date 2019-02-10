@@ -12,8 +12,8 @@ var app = new Framework7({
   // Add default routes
   routes: [
     {
-      path: '/adobo/',
-      url: 'adobo.html',
+      path: '/schedule/',
+      url: 'schedule.html',
     },
     {
       path: '/afritada/',
@@ -50,6 +50,10 @@ var app = new Framework7({
     {
       path: '/food/',
       url: 'food.html',
+    },
+    {
+      path: '/dresses/',
+      url: 'dresses.html',
     },
   ],
   
