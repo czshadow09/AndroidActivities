@@ -86,3 +86,11 @@ div.click{
 .md.theme-dark {
   --f7-navbar-subtitle-text-color: rgba(255, 255, 255, 0.85);
 }
+.button1 {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}

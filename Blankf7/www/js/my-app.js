@@ -53,6 +53,7 @@ var app = new Framework7({
     },
   ],
   
+  
   // ... other parameters
 });
 
