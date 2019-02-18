@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+   <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Fixed Navbar</div>
+    </div>
+  </div>
+
+          <!-- Bottom Toolbar -->
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <div class="card demo-card-header-pic">
+  <div style="background-image:url(images/rj.jpg); height:200px" class="card-header align-items-flex-end">RJ Reroma</div>
+  <div class="card-content card-content-padding">
+    <p><a href="https://twitter.com/rjreroma">Twitter</a> </p>
+  </div>
+</div>
+
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/emil.jpg);height:200px" class="card-header align-items-flex-end">Emil Gimena</div>
+  <div class="card-content card-content-padding">
+    <p><a href="https://twitter.com/NizeLime" >Twitter</a></p>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+  <style type="text/css">
+    /* A bit of demo styles */;
+.demo-swiper .swiper-slide {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+}
+.demo-swiper .swiper-slide {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.demo-swiper {
+  margin: 0px 0 35px;
+  font-size: 18px;
+  height: 120px;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide {
+  width: 85%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+  width: 70%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+  width: 30%;
+}
+  </style>
+</html>
+

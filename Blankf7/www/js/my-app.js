@@ -55,6 +55,14 @@ var app = new Framework7({
       path: '/dresses/',
       url: 'dresses.html',
     },
+    {
+      path: '/aboutus/',
+      url: 'aboutus.html',
+    },
+    {
+      path: '/twitter/',
+      url: 'https://twitter.com/NizeLime',
+    },
   ],
   
   
